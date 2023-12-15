@@ -1974,6 +1974,7 @@ subroutine micro_mg_tend ( &
         ! note that currently mtime = deltat
         !================================================================
 
+       ! remove nimax to get CESM2-PaleoCalibr 
        !if (do_cldice .and. nitend(i,k).gt.0._r8.and.ni(i,k)+nitend(i,k)*deltat.gt.nimax(i,k)) then
        !   nitend(i,k)=max(0._r8,(nimax(i,k)-ni(i,k))/deltat)
        !end if
