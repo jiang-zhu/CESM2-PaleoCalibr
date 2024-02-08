@@ -6,6 +6,8 @@ We implemented two changes in the standard CESM2.1.x to fix the unrealistically 
 
 CESM2-PaleoCalibr has been validated with the ~2° CAM6 with a compset of 1850_CAM60_CLM50%BGC-CROP_CICE_POP2_MOSART_CISM2%NOEVOLVE_WW3. It should also improve simulations with other configurations (i.e., the ~1° CAM6) but it is unclear how much substepping is needed. Substepping of 8 increases model cost by ~20%.
 
+**For more information, see the [Paleoclimate Working Group web page with FAQ](https://www.cesm.ucar.edu/working-groups/paleo/simulations/cesm2-paleocalibr)**
+
 **Data availability**
 * [Derecho](https://arc.ucar.edu/knowledge_base/74317833): /glade/campaign/cgd/ppc/jiangzhu
 * ESGF: Source ID: CESM2-FV2 and CESM2; Variant Label: r1i2p2f1; Version: 20220915. Or, you could use this link: https://esgf-node.llnl.gov/search/cmip6?min_version=20220915&institution_id=NCAR&project=CMIP6
